@@ -1,18 +1,18 @@
 {
   "name": "cordova-hot-code-push-cli",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Cordova Hot Code Push CLI",
-  "preferGlobal": "true",
+  "preferGlobal": true,
   "bin": {
     "cordova-hcp": "bin/cordova-hcp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nordnet/cordova-hot-code-push-cli.git"
+    "url": "git+https://github.com/jdiderik/cordova-hot-code-push-cli.git"
   },
   "keywords": [
     "cordova",
-    "nordnet",
+    "jdiderik",
     "mobile",
     "cordova-hot-code-push-plugin",
     "ecosystem:cordova",
@@ -26,7 +26,8 @@
     "eslint": "eslint --ext=.js -c .eslintrc src",
     "test": "mocha"
   },
-  "author": "Andreas Hassellöf for Nordnet Bank AB",
+  "author": "Jeroen Diderik, Alpha Media Lab",
+  "original-author": "Andreas Hassellöf for Nordnet Bank AB",
   "license": "MIT",
   "dependencies": {
     "async": "^1.4.0",
